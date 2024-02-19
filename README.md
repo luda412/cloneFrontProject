@@ -6,13 +6,15 @@
 
 ## 2. Git 전략
 
-### Branch
+### 2-1. Branch
 
-- main: Deployment
-- develop: 각 요구 사항 별 병합하는 Branch
-- name: 개인별 구현 Branch
+| Branch Name | Description                                                |
+| ----------- | ---------------------------------------------------------- |
+| main        | Deployment                                                 |
+| develop     | 완성된 요구 사항을 main Branch에 Merge 하기 전 Test Branch |
+| name        | 개인별 요구 사항 구현 Branch                               |
 
-### Commit (요구 사항 완성시)
+### 2-2. Commit (요구 사항 완성시)
 
 | Tag Name | Description                                               |
 | -------- | :-------------------------------------------------------- |
