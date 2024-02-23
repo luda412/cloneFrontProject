@@ -2,6 +2,8 @@ import Logo from '@/components/logo';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Header from './area/header';
+import Footer from './area/footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,11 +15,13 @@ export const metadata: Metadata = {
 export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang='en'>
+      <Header />
       <body>
         <Logo />
         {/* <Lodging /> */}
         {props.children}
       </body>
+      <Footer />
     </html>
   );
 }
