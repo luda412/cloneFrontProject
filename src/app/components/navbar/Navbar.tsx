@@ -1,3 +1,4 @@
+import UserMenu from '@/app/components/navbar/UserMenu';
 import Container from '../Container';
 import Logo from './Logo';
 import Search from './Search';
@@ -24,6 +25,7 @@ const Navbar = () => {
           >
             <Logo />
             <Search />
+            <UserMenu />
           </div>
         </Container>
       </div>
