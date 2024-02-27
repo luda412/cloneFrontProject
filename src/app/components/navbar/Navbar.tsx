@@ -1,4 +1,4 @@
-import Container from '@/app/components/Container';
+import Container from '../Container';
 import Logo from './Logo';
 import Search from './Search';
 
